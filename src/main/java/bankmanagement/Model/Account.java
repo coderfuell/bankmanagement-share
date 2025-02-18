@@ -7,7 +7,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-@Entity @Getter @Setter @AllArgsConstructor public class Account {
+@Entity @Getter @Setter @AllArgsConstructor
+public class Account {
     @Id
     private String accountId;
     

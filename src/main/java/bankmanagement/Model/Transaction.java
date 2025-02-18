@@ -1,6 +1,9 @@
 package bankmanagement.Model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
-public record Transaction (String transactionId,String transactionAmount,Account transactionFrom,Account transactionTo){
+@Entity
+public record Transaction (@Id String transactionId,String transactionAmount,Account transactionFrom,Account transactionTo){
     
 }

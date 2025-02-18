@@ -4,17 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import bankmanagement.Model.Account;
 
-
+@Repository
 public interface AccountJpaInterface extends JpaRepository<Account, String>{
-    // @Override
-    // public List<Account> findAll();
-    // @Override
-    // public Optional<Account> findById(String id);
-    // @Override
-    // public <S extends Account> List<S> saveAll(Iterable<S> entities);
+    findB
     
     
 }
